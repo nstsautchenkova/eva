@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EVA</title>
+    <meta name="description" content="EVA">
+    <meta property="og:title" content="EVA">
+    <meta property="og:description" content="EVA">
+    <meta property="og:image" content="img/meta-img-default.jpg">
+    <meta property="og:image:alt" content="EVA">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+
+<body>
+
+    <div class="page" data-screen="main">
+        <header class="header">
+            <div class="container">
+                <div class="header__row flex aic jcsb">
+                    <div class="header__user">
+                        <img src="img/img/user-img.png" alt="" />
+                    </div>
+
+                    <div class="header__nav flex gap-8">
+                        <button type="button" class="header-btn active-mod">
+                            <div class="img">
+                                <img src="img/ico/ico-faq.svg" alt="" />
+                            </div>
+                            <div class="tit">FAQ</div>
+                        </button>
+                        <button type="button" class="header-btn active-mod">
+                            <div class="img">
+                                <img src="img/ico/ico-chat.svg" alt="" />
+                            </div>
+                            <div class="tit">Чат</div>
+                        </button>
+                        <div type="button" class="header-btns flex gap-5">
+                            <button type="button" class="language active active-mod">
+                                <img srcset="img/language/usa@2x.png 2x, img/language/usa@3x.png 3x"
+                                    src="img/language/usa.png" alt="">
+                            </button>
+                            <button type="button" class="language active-mod">
+                                <img srcset="img/language/ru@2x.png 2x, img/language/ru@3x.png 3x"
+                                    src="img/language/ru.png" alt="">
+                            </button>
+                            <button type="button" class="language active-mod">
+                                <img srcset="img/language/ukr@2x.png 2x, img/language/ukr@3x.png 3x"
+                                    src="img/language/ukr.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main main-scrool-section">
+            <section class="banner inside-banner">
+                <div class="container">
+                    <div class="banner__row aic">
+                        <div class="banner__txt mt-0">
+                            <div class="mb-5 big-txt bold-txt">Токен EVA</div>
+                            <div class="small-tit txt-gray">Все выкупленые токены будут уходить в общий пул майнинга,
+                                продливая его жизнь.</div>
+                        </div>
+
+                        <div class="banner__img">
+                            <img src="img/img/token-banner.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="token-info first-section mb-18">
+                <div class="container">
+                    <div class="token-info__cards grid col-2 gap-18 mb-18">
+
+                        <div class="token-info-card">
+                            <div class="card mb-11">
+                                <div class="token-info-card__header">
+                                    <div class="tit ssmall-tit">Курс EVA:</div>
+                                    <div class="img">
+                                        <img src="img/ico/ico-chart1.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="token-info-card__content">
+                                    <div class="val">
+                                        <div class="val medium-txt bold-txt">
+                                            <span class="txt-gray">$</span>
+                                            12.345
+                                        </div>
+                                        <div class="label label-green">+34.5%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" class="token-rate__btn token-rate__add">
+                                Купить EVA
+                                <img src="img/ico/add-circle.svg" alt="">
+                            </button>
+                        </div>
+
+                        <div class="token-info-card">
+                            <div class="card mb-11">
+                                <div class="token-info-card__header">
+                                    <div class="tit ssmall-tit">Капитализация:</div>
+                                    <div class="img">
+                                        <img src="img/ico/ico-chart2.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="token-info-card__content">
+                                    <div class="val">
+                                        <div class="val medium-txt bold-txt">
+                                            <span class="txt-gray">$</span>
+                                            1 234 456
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" class="token-rate__btn token-rate__export">
+                                График EVA
+                                <img src="img/ico/ico-export.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="minimg-eva mb-18">
+                        <div class="tit">Осталось намайнить EVA:</div>
+
+                        <div class="progress">
+                            <div class="progress__val smedium-txt bold-txt">0</div>
+                            <progress min="0" max="1000000000" value="700000000"></progress>
+                        </div>
+                    </div>
+
+                    <div class="address-eva">
+                        <div class="title flex aic gap-5 mb-5">
+                            <div class="img">
+                                <img src="img/token/sol.svg" alt="" />
+                            </div>
+                            <div class="tit small-tit txt-gray">Адрес токена EVA (SOL):</div>
+                        </div>
+
+                        <div class="payment-item">
+                            <div class="payment-item__row">
+                                <div class="payment-item__control">
+                                    <div class="img token">
+                                        <img src="img/ico/ico-doc.svg" alt="">
+                                    </div>
+
+                                    <div class="specifications-wallet__input">
+                                        <div id="copyAddress" class="copy__txt sssmall-tit">
+                                            Ef9P69sU4AgSWniwHUGts1BYTIyYPVlUCN-2Vb1BmeRxW1sl</div>
+                                    </div>
+                                </div>
+
+                                <div data-id="copyAddress" class="copy__btn">
+                                    <img src="img/ico/ico-copy.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="token-description borderTop-section ptb-15">
+                <div class="container">
+                    <div class="section-title mb-25">
+                        <div class="img ico-circle ico-circle--size-24">
+                            <img src="img/ico/ico-info2.svg" alt="">
+                        </div>
+
+                        <h2 class="txt-gard">Описание токена:</h2>
+                    </div>
+
+                    <div class="token-emission">
+                        <div class="token-emission__title">
+                            <div class="img">
+                                <img src="img/ico/ico-flag.svg" alt="" />
+                            </div>
+                            <div class="tit small-tit txt-violet">Эмиссия токена EVA:</div>
+                        </div>
+                        <div class="val smedium-txt bold-txt ">1 000 000 000</div>
+                    </div>
+
+                    <div class="token-chart mb-30">
+                        <div class="token-chart__inner">
+                            <div class="token-chart__title token-chart__label sssmall-tit">
+                                <span class="txt-violet">Майнинг:</span> 70%
+                            </div>
+
+                            <div class="token-chart__val1 token-chart__label sssmall-tit">
+                                <span class="txt-violet">Команда:</span> 5%
+                            </div>
+
+                            <div class="token-chart__val2 token-chart__label sssmall-tit">
+                                <span class="txt-violet">DEX:</span> 10%
+                            </div>
+
+                            <div class="token-chart__val3 token-chart__label sssmall-tit">
+                                <span class="txt-violet">Маркетинг:</span> 10%
+                            </div>
+
+                            <div class="token-chart__val4 token-chart__label sssmall-tit">
+                                <span class="txt-violet">CEX:</span> 5%
+                            </div>
+
+                            <div class="token-chart__img">
+                                <img srcset="img/img/token-chart@2x.png 2x, img/img/token-chart@3x.png 3x"
+                                    src="img/img/token-chart.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="distribution-funds">
+                        <div class="title bold-txt smedium-txt flex jcc mb-18">Распределение средств с продаж майнинга:
+                        </div>
+
+                        <div class="distribution-funds__list">
+
+                            <div class="distribution-funds__item">
+                                <div class="distribution-funds__card card">
+                                    <div class="distribution-funds__tit">
+                                        <div class="img">
+                                            <img src="img/ico/ico-flag.svg" alt="">
+                                        </div>
+                                        <div class="tit small-tit txt-violet">Выкуп токена EVA с DEX:</div>
+                                    </div>
+                                    <div class="val smedium-txt bold-txt">60%</div>
+                                </div>
+
+                                <div class="distribution-funds__info">
+                                    <div class="ctooltip">
+                                        <div class="ctooltip__btn distribution-funds__btn">
+                                            <div class="img">
+                                                <img src="img/ico/ico-info3.svg" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="ctooltip__content">
+                                            <div class="ctooltip__inner">
+                                                <div class="ctooltip__close">
+                                                    <img src="img/ico/close-circle.svg" alt="">
+                                                </div>
+
+                                                <div class="txt">
+                                                    <p>Выполняйте тип цифровой криптовалюты, позволяющий создавать
+                                                        современный актив с помощью транзакций между самостоятельными
+                                                        узлами, майнинга и Выполняйте тип</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="distribution-funds__item">
+                                <div class="distribution-funds__card card">
+                                    <div class="distribution-funds__tit">
+                                        <div class="img">
+                                            <img src="img/ico/ico-flag.svg" alt="">
+                                        </div>
+                                        <div class="tit small-tit txt-violet">Резервный фонд:</div>
+                                    </div>
+                                    <div class="val smedium-txt bold-txt">10%</div>
+                                </div>
+
+                                <div class="distribution-funds__info">
+                                    <div class="ctooltip">
+                                        <div class="ctooltip__btn distribution-funds__btn">
+                                            <div class="img">
+                                                <img src="img/ico/ico-info3.svg" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="ctooltip__content">
+                                            <div class="ctooltip__inner">
+                                                <div class="ctooltip__close">
+                                                    <img src="img/ico/close-circle.svg" alt="">
+                                                </div>
+
+                                                <div class="txt">
+                                                    <p>Выполняйте тип цифровой криптовалюты, позволяющий создавать
+                                                        современный актив с помощью транзакций между самостоятельными
+                                                        узлами, майнинга и Выполняйте тип</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="distribution-funds__item">
+                                <div class="distribution-funds__card card">
+                                    <div class="distribution-funds__tit">
+                                        <div class="img">
+                                            <img src="img/ico/ico-flag.svg" alt="">
+                                        </div>
+                                        <div class="tit small-tit txt-violet">Пополнение пула ликвидности:</div>
+                                    </div>
+                                    <div class="val smedium-txt bold-txt">25%</div>
+                                </div>
+
+                                <div class="distribution-funds__info">
+                                    <div class="ctooltip">
+                                        <div class="ctooltip__btn distribution-funds__btn">
+                                            <div class="img">
+                                                <img src="img/ico/ico-info3.svg" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="ctooltip__content">
+                                            <div class="ctooltip__inner">
+                                                <div class="ctooltip__close">
+                                                    <img src="img/ico/close-circle.svg" alt="">
+                                                </div>
+
+                                                <div class="txt">
+                                                    <p>Выполняйте тип цифровой криптовалюты, позволяющий создавать
+                                                        современный актив с помощью транзакций между самостоятельными
+                                                        узлами, майнинга и Выполняйте тип</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="distribution-funds__item">
+                                <div class="distribution-funds__card card">
+                                    <div class="distribution-funds__tit">
+                                        <div class="img">
+                                            <img src="img/ico/ico-flag.svg" alt="">
+                                        </div>
+                                        <div class="tit small-tit txt-violet">Команде:</div>
+                                    </div>
+                                    <div class="val smedium-txt bold-txt">5%</div>
+                                </div>
+
+                                <div class="distribution-funds__info">
+                                    <div class="ctooltip">
+                                        <div class="ctooltip__btn distribution-funds__btn">
+                                            <div class="img">
+                                                <img src="img/ico/ico-info3.svg" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="ctooltip__content">
+                                            <div class="ctooltip__inner">
+                                                <div class="ctooltip__close">
+                                                    <img src="img/ico/close-circle.svg" alt="">
+                                                </div>
+
+                                                <div class="txt">
+                                                    <p>Выполняйте тип цифровой криптовалюты, позволяющий создавать
+                                                        современный актив с помощью транзакций между самостоятельными
+                                                        узлами, майнинга и Выполняйте тип</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item--mt-33">
+                            <a href="#" class="menu__link">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-miner.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Майнер</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--mt-21">
+                            <a href="#" class="menu__link active">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-frens.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Друзья</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-quest.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Квесты</div>
+                                </div>
+
+                                <div class="menu__link__label">5</div>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--mt-21">
+                            <a href="#" class="menu__link">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-coin.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Токен</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--mt-33">
+                            <a href="#" class="menu__link">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-wallet.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Баланс</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+
+    <section class="preloader">
+        <div class="preloader__inner flex flex-col aic jcc">
+            <div class="preloader__video">
+                <video autoplay muted loop playsinline>
+                    <source src="img/preloader/evaloader-bg.webm" type="video/webm">
+                    <source src="iimg/preloader/evaloader-bg.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="preloader__imgs">
+                <div class="img">
+                    <img srcset="img/preloader/eva@2x.png 2x, img/preloader/eva@3x.png 3x" src="img/preloader/eva.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

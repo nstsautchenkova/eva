@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EVA</title>
+    <meta name="description" content="EVA">
+    <meta property="og:title" content="EVA">
+    <meta property="og:description" content="EVA">
+    <meta property="og:image" content="img/meta-img-default.jpg">
+    <meta property="og:image:alt" content="EVA">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+
+<body>
+    <div class="page" data-screen="main">
+        <header class="header">
+            <div class="container">
+                <div class="header__row flex aic jcsb">
+                    <div class="header__user">
+                        <img src="img/img/user-img.png" alt="" />
+                    </div>
+
+                    <div class="header__nav flex gap-8">
+                        <button type="button" class="header-btn active-mod">
+                            <div class="img">
+                                <img src="img/ico/ico-faq.svg" alt="" />
+                            </div>
+                            <div class="tit">FAQ</div>
+                        </button>
+                        <button type="button" class="header-btn active-mod">
+                            <div class="img">
+                                <img src="img/ico/ico-chat.svg" alt="" />
+                            </div>
+                            <div class="tit">Чат</div>
+                        </button>
+                        <div type="button" class="header-btns flex gap-5">
+                            <button type="button" class="language active active-mod">
+                                <img srcset="img/language/usa@2x.png 2x, img/language/usa@3x.png 3x"
+                                    src="img/language/usa.png" alt="">
+                            </button>
+                            <button type="button" class="language active-mod">
+                                <img srcset="img/language/ru@2x.png 2x, img/language/ru@3x.png 3x"
+                                    src="img/language/ru.png" alt="">
+                            </button>
+                            <button type="button" class="language active-mod">
+                                <img srcset="img/language/ukr@2x.png 2x, img/language/ukr@3x.png 3x"
+                                    src="img/language/ukr.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main main-scrool-section">
+            <section class="banner inside-banner">
+                <div class="container">
+                    <div class="banner__row aic">
+                        <div class="banner__txt mt-0">
+                            <div class="mb-5 big-txt bold-txt">Система рефералов</div>
+                            <div class="small-tit txt-gray">Собери свою команду рефералов и получай максимальный доход
+                                на всех&nbsp;3&nbsp;-&nbsp;х уровнях!</div>
+                        </div>
+
+                        <div class="banner__img">
+                            <img src="img/img/friends-banner.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="program mb-18">
+                <div class="container">
+                    <div class="section-title mb-18">
+                        <div class="img ico-circle ico-circle--size-24">
+                            <img src="img/ico/ico-program.svg" alt="" />
+                        </div>
+
+                        <h2 class="txt-gard">Программа 3 уровня:</h2>
+                    </div>
+
+                    <div class="program__list">
+                        <div class="program__card card">
+                            <div class="img">
+                                <img src="img/ico/ico-ref2.svg" alt="" />
+                            </div>
+                            <div class="tit txt-violet medium-txt">Уровень 1</div>
+                            <div class="val big-txt bold-txt">15%</div>
+                        </div>
+                        <div class="program__card card p-15">
+                            <div class="img">
+                                <img src="img/ico/ico-ref2.svg" alt="" />
+                            </div>
+                            <div class="tit txt-violet medium-txt">Уровень 21</div>
+                            <div class="val big-txt bold-txt">5%</div>
+                        </div>
+                        <div class="program__card card p-15">
+                            <div class="img">
+                                <img src="img/ico/ico-ref2.svg" alt="" />
+                            </div>
+                            <div class="tit txt-violet medium-txt">Уровень 3</div>
+                            <div class="val big-txt bold-txt">3%</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="ref-link mb-18">
+                <div class="container">
+                    <div class="ref-link__row">
+                        <button type="button" class="primary-btn active-mod flex aic jcsb w-100">
+                            <div class="flex aic gap-10">
+                                <div class="img ico-circle ico-circle--size-32">
+                                    <img src="img/ico/ico-link.svg" alt="">
+                                </div>
+                                <div class="tit">Отправить ссылку</div>
+                            </div>
+
+                            <div class="primary-btn__arrow">
+                                <img src="img/ico/arrow-right.svg" alt="">
+                            </div>
+                        </button>
+
+                        <div class="ref-link__copy">
+                            <div id="copyRefLink" class="copy__txt">ref link</div>
+                            <div data-id="copyRefLink" class="copy__btn active-mod">
+                                <img src="img/ico/ico-copy.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="referrals mb-18">
+                <div class="container">
+                    <div class="section-title mb-18">
+                        <div class="img ico-circle ico-circle--size-24">
+                            <img src="img/ico/ico-lists.svg" alt="" />
+                        </div>
+
+                        <h2 class="txt-gard">Список рефералов:</h2>
+                    </div>
+
+                    <div class="referrals__list mb-18">
+                        <div class="referrals__card card p-15">
+                            <div class="referrals__row mb-5">
+                                <div class="tit ssmall-tit">Все рефералы:</div>
+                                <div class="img">
+                                    <img src="img/ico/ico-ref.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="val medium-txt bold-txt">12345</div>
+                        </div>
+                        <div class="referrals__card card p-15">
+                            <div class="referrals__row mb-5">
+                                <div class="tit ssmall-tit">Активных:</div>
+                                <div class="img">
+                                    <img src="img/ico/ico-ref.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="val medium-txt bold-txt">123</div>
+                        </div>
+                    </div>
+
+                    <div class="referrals-last">
+                        <div class="referrals-last__header">
+                            <div class="tit">Последние рефералы:</div>
+
+                            <div class="referrals-filter">
+                                <button type="button" class="referrals-filter__btn">
+                                    <div class="tit">По прибыли:</div>
+                                    <div class="img">
+                                        <img src="img/ico/ico-sort.svg" alt="" />
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="referrals-last__list mb-18">
+                            <div class="referrals-item">
+                                <div class="referrals-user">
+                                    <div class="img referrals-user__ava">
+                                        <img src="img/img/user2.png" alt="" />
+                                    </div>
+                                    <div class="referrals-user__name">TrumpInvestor2025</div>
+                                </div>
+                                <div class="referrals-value">+ 1234 EVA</div>
+                            </div>
+                            <div class="referrals-item">
+                                <div class="referrals-user">
+                                    <div class="img referrals-user__ava">
+                                        <img src="img/img/user2.png" alt="" />
+                                    </div>
+                                    <div class="referrals-user__name">TrumpInvestor2025</div>
+                                </div>
+                                <div class="referrals-value">+ 1234 EVA</div>
+                            </div>
+                            <div class="referrals-item">
+                                <div class="referrals-user">
+                                    <div class="img referrals-user__ava">
+                                        <img src="img/img/user2.png" alt="" />
+                                    </div>
+                                    <div class="referrals-user__name">TrumpInvestor2025</div>
+                                </div>
+                                <div class="referrals-value">+ 1234 EVA</div>
+                            </div>
+                        </div>
+
+                        <div class="load">
+                            <div class="load__row">
+                                <div class="load__icons">
+                                    <div class="load-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                Загружаю список
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item--mt-33">
+                            <a href="#" class="menu__link">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-miner.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Майнер</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--mt-21">
+                            <a href="#" class="menu__link active">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-frens.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Друзья</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-quest.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Квесты</div>
+                                </div>
+
+                                <div class="menu__link__label">5</div>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--mt-21">
+                            <a href="#" class="menu__link">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-coin.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Токен</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__item--mt-33">
+                            <a href="#" class="menu__link">
+                                <div class="menu__link__inner">
+                                    <div class="img">
+                                        <img src="img/menu/ico-wallet.svg" alt="" />
+                                    </div>
+                                    <div class="tit">Баланс</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+
+    <section class="preloader">
+        <div class="preloader__inner flex flex-col aic jcc">
+            <div class="preloader__video">
+                <video autoplay muted loop playsinline>
+                    <source src="img/preloader/evaloader-bg.webm" type="video/webm">
+                    <source src="iimg/preloader/evaloader-bg.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="preloader__imgs">
+                <div class="img">
+                    <img srcset="img/preloader/eva@2x.png 2x, img/preloader/eva@3x.png 3x" src="img/preloader/eva.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
